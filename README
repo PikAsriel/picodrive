@@ -1,14 +1,7 @@
+這是另一個 Megadrive / Genesis / Sega CD / Mega CD / 32X / SMS 模擬器，它是為基於 ARM 的手持設備而編寫的（例如智能手機和掌上游戲機，如 GP2X 和 Pandora），但也可以在非 ARM 小端硬件上運行。
 
-This is yet another Megadrive / Genesis / Sega CD / Mega CD / 32X / SMS
-emulator, which was written having ARM-based handheld devices in mind
-(such as smartphones and handheld consoles like GP2X and Pandora),
-but also runs on non-ARM little-endian hardware too.
+該模擬器針對 ARM 進行了大量優化，具有彙編內核模擬 68k、Z80 和 VDP 芯片，還有用於 SH2 和 SSP16（用於模擬 32X 和 SVP ）。 它是由 Dave（又名 fdave，
+finalburn 的作者）作為 Pocket PC 的基本 Genesis/Megadrive 模擬器，
+然後由 notaz 接管並擴展。
 
-The emulator is heavily optimized for ARM, features assembly cores for
-68k, Z80 and VDP chip emulation, also has dynamic recompilers for SH2 and
-SSP16 (for 32X and SVP emulation). It was started by Dave (aka fdave,
-finalburn author) as basic Genesis/Megadrive emulator for Pocket PC,
-then taken over and expanded by notaz.
-
-PicoDrive was the first emulator ever to properly emulate Virtua Racing and
-it's SVP chip.
+PicoDrive 是有史以來第一個正確模擬 Virtua Racing，它是 SVP 芯片。
